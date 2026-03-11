@@ -281,6 +281,14 @@ export default function App() {
               <MapPin className="w-12 h-12 text-[#FFD300] mx-auto mb-4" />
               <h3 className="text-2xl font-oswald font-bold text-[#FFFFFF] mb-2">Located in Jiyaguda, Hyderabad</h3>
               <p className="text-[#A0A0A0]">13-3-598, Opp: Gopi Hotel, Puranapool</p>
+              <a
+                href="https://maps.app.goo.gl/t5wyVQNve5dpCewG9"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 mt-5 bg-[#FFD300] text-[#121212] px-6 py-3 rounded font-bold uppercase tracking-wider text-sm hover:bg-yellow-400 transition-all min-h-[48px] shadow-[0_4px_15px_rgba(255,211,0,0.3)] hover:shadow-[0_6px_20px_rgba(255,211,0,0.5)] hover:-translate-y-0.5"
+              >
+                <MapPin className="w-5 h-5" /> Open in Google Maps
+              </a>
             </div>
             {/* Simulating a map background */}
             <div className="absolute inset-0 opacity-10 bg-[url('https://images.unsplash.com/photo-1524661135-423995f22d0b?q=80&w=1474&auto=format&fit=crop')] bg-cover bg-center mix-blend-luminosity"></div>
